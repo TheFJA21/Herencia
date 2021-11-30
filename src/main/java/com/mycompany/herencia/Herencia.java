@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.herencia;
 
-/**
- *
- * @author E7240
- */
 public class Herencia {
-    
+
+public static void main(String[] args) {
+        Profesor profesor1 = new Profesor("Carlos", "Mora", "IngIf 2021",35);
+        profesor1.setIdProfesor("IngIf 2021");
+        profesor1.MostrarDatos();
+    }    
 }
